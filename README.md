@@ -1,0 +1,1 @@
+- Create a pod through kubectl imperative way

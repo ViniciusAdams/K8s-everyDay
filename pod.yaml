@@ -1,0 +1,14 @@
+# This is a comment
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+  labels:
+    env: demo
+    type: frontend
+spec:
+  containers:
+    - name: nginx-container  # Must be inside a list
+      image: nginx123  # Should be inside the container definition
+      ports:
+        - containerPort: 80  # Correct indentation and format
